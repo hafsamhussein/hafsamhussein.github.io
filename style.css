@@ -1,0 +1,156 @@
+body {
+  background-color: lightblue;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5 {
+  color: blue;
+  text-align: left;
+  margin: 0;
+  text-shadow: 1px 1px yellow;
+
+}
+
+
+h3 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.job-title {
+  font-weight: bold;
+}
+
+.job-dates {
+  font-style: italic;
+}
+.languages-list {
+  font-style: italic;
+}
+
+
+ul, ol {
+  margin: 10px 0;
+  padding: 0 0 0 20px;
+  text-align: left;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ol li::before {
+  content: "\2605";
+  color: blue;
+  margin-right: 10px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+  margin: 20px 0;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.sub-section {
+  margin: 10px 0;
+}
+
+.sub-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 20px;
+  box-shadow: 5px 5px 10px #888888;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid blue;
+  box-shadow: 5px 5px 10px #888888;
+  width: 80%;
+  height: 50%;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 25px;
+}
+
+
+
+.sub-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-section h4 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.sub-section p {
+  margin-bottom: 10px;
+}
+
+.sub-section ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
